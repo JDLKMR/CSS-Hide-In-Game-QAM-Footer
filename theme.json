@@ -1,0 +1,12 @@
+{
+  "name": "Hide In-Game QAM Footer",
+  "display_name": "Hide In-Game QAM Footer",
+  "version": "v1.0",
+  "author": "JD",
+  "description": "Removes the footer from the Quick Access Menu while in-game.",
+  "target": "Tweak",
+  "manifest_version": 9,
+  "inject": {
+    "shared.css": ["QuickAccess"]
+  }
+}

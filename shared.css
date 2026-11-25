@@ -1,0 +1,9 @@
+/* Hide the QAM footer */
+.VdbQ_picJ9tv7JtnXP8eZ {
+  display: none !important;
+}
+
+/* Reclaim the space the footer reserved (the QAM's layout uses this variable) */
+:root {
+  --gamepadui-current-footer-height: 0px !important;
+}
